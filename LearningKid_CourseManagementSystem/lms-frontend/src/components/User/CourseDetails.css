@@ -1,0 +1,152 @@
+/* General styles */
+.course-details {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Title styling */
+  .course-details h1 {
+    font-size: 3rem;
+    color: #2a9d8f;
+    border-bottom: 2px solid #2a9d8f;
+    padding-bottom: 10px;
+  }
+  
+  /* Paragraph and text */
+  .course-details p {
+    font-size: 1.15rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Video styling */
+  .video-container {
+    margin-top: 40px;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    height: 420px;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-container h2 {
+    font-size: 1.8rem;
+    color: #2a9d8f;
+    margin-bottom: 10px;
+  }
+  
+  /* MCQ Section */
+  .mcq-questions {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .mcq-questions h2 {
+    font-size: 2rem;
+    color: #264653;
+  }
+  
+  .mcq-questions .question {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border-left: 4px solid #2a9d8f;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .mcq-questions .question:hover {
+    transform: translateX(5px);
+    background-color: #e0f7fa;
+  }
+  
+  .mcq-questions .question p {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .mcq-questions .option {
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .mcq-questions .option:hover {
+    background-color: #2a9d8f;
+    color: #fff;
+  }
+  
+  .mcq-questions input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+  }
+  
+  /* Notes Section */
+  .notes-section {
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .notes-section h2 {
+    font-size: 2rem;
+    color: #2a9d8f;
+  }
+  
+  .notes-section p {
+    font-size: 1.1rem;
+    color: #555;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .course-details {
+      padding: 20px;
+    }
+  
+    .video-container iframe {
+      height: 250px;
+    }
+  
+    .mcq-questions .question p {
+      font-size: 1rem;
+    }
+  
+    .mcq-questions .option {
+      font-size: 0.9rem;
+    }
+  
+    .notes-section p {
+      font-size: 1rem;
+    }
+  }
+  
